@@ -1,0 +1,67 @@
+	.swiper-container{
+		margin-top: 7rem;
+		width: 100%;
+		height: 30rem;
+	}
+	.swiper-slide img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.context{
+		width: 100%;
+	}
+	.context li{
+		width: 100%;
+		height: 25rem;
+		font-size: 3rem;
+		margin-top: 2rem;
+	}
+	.context li img{
+		width: 40%;
+		height: 100%;
+		float: left;
+	}
+	.context li .right{
+		display: inline-block;
+		width: 55%;height: 100%;
+		margin-left:5%;
+	}
+	.context li .right a{
+		color: black;
+	}
+	.context li .right .price div:nth-child(1) p{
+		color: red;
+		display: inline-block;
+		margin-top:8rem;
+		width:10rem ;
+		/*font-weight: 500;*/
+	}
+.context li .right .price div:nth-child(1) span{
+	color: gainsboro;
+	text-decoration: line-through;
+}
+.context li .right .price div:nth-child(2){
+	width: 100%;
+	height: 5rem;
+	margin-top: 2rem;
+}
+.context li .right .price div:nth-child(2) p{
+	display: inline-block;
+}
+.context li .right .price div:nth-child(2) a{
+	display: inline-block;
+	margin-left: 60%;
+	width: 4rem;
+	height:3rem;
+	border: 0.5rem #df2660 solid;
+	border-radius: 1rem;
+}
+.context li .right .price div:nth-child(2) a img{
+	width: 100%;height: 100%;
+}
+
+
+
+
+

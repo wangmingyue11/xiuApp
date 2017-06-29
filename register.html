@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/module.css">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	<body>
+		<header class="header">
+			<a href="classify.html"><img src="img/landing/top_logo.png" class="logo" style="margin-top: 2.5%;"/></a>
+			<h1>注册</h1>
+		</header>
+		<form action="POST" class="re_info">
+
+			<div>
+				<p>账户名称：</p>
+				<input type="text" placeholder="请输入账号" class="re_username"/>
+			</div>
+			<div>
+				<p>登录密码：</p>
+				<input type="text" placeholder="请输入密码" class = "re_passward"/>
+			</div>
+			<div>
+				<p>确认密码：</p>
+				<input type="text" placeholder="请输入密码" class="re_apassword"/>
+			</div>
+			<div>
+				<input type="checkbox" class = "check"/>
+				<span>我已阅读并接受走秀网服务条款</span>
+			</div>
+			<p class="output"></p>
+			<input type="button" class="submit" value="注册"/>
+		</form>
+
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/register.js" type="text/javascript" charset="utf-8"></script>

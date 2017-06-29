@@ -1,0 +1,55 @@
+.de_container{
+    margin-top: 7rem;
+    width: 100%;
+    /*height: 100%;*/
+    background: #f2efef;
+}
+.de_container img{
+    width: 100%;
+    height:40rem;
+}
+.de_info{
+    width: 90%;
+    margin: 1rem auto;
+    font-size:4rem;
+    font-weight: bold;
+}
+.de_info div span:nth-child(1){
+    color: #ba0a53;
+    margin-right: 5rem;
+}
+.de_info div span:nth-child(2){
+    text-decoration: line-through;
+}
+.de_goodinfo{
+    width: 100%;
+    padding: 2rem;
+    height: 10rem;
+}
+.de_goodinfo1{
+    height: 6rem;
+    width: 6rem;
+    float: left;
+}
+.de_goodinfo p{
+    font-size: 4rem;
+    height: 6rem;
+    padding: 1rem;
+    float: left;
+}
+.de_goodinfo2{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 60%;
+}
+.footer input{
+    height: 6rem;
+    width: 20rem;
+    background: #e5007d;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 39%;
+    color: white;
+    font-size: 2rem;
+}

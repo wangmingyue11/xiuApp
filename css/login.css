@@ -1,0 +1,46 @@
+body{
+    background-color:#f2efef;
+}
+.lo_container{
+    margin-top:10rem;
+    width: 90%;
+    margin-left: 4.5%;
+}
+.lo_info{
+    width: 100%;
+    height: 30%;
+    border:0 white solid;
+    font-size: 2rem;
+
+}
+.lo_info input{
+    display:block;
+    width: 99%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 0 white solid;
+    padding-left: 2%;
+}
+.lo_chose,.lo_bt{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.lo_chose div{
+    margin-bottom: 2%;
+}
+.lo_chose div span{
+    margin-left: 2rem;
+}
+.lo_chose div:nth-child(2) span{
+    color: #c84178;
+}
+.lo_bt input{
+    background: #f9008f;
+    color: white;
+    font-size: 3rem;
+    width: 99%;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-bottom: 2%;
+}

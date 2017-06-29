@@ -1,0 +1,21 @@
+.container{
+	margin-top: 7rem;
+}
+.container li{
+	padding: 1.5rem 1rem;
+	width: 100%;
+	border-bottom: 1px gray solid;
+}
+.container a{
+	color: black;
+	font-size: 3rem;
+	
+}
+.container li：last-child{
+	border-bottom: none ;
+}
+.container a img{
+	/*margin-left: 50rem;*/
+	position: absolute;
+	left: 90%;
+}

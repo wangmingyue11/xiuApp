@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/module.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header class="header">
+			<img src="img/common/logo.png" class="logo"/>
+			<img src="img/common/top_icon2.png" class="password"/>
+			<img src="img/common/top_icon1.png" class="username"/>
+		</header>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="img/index/banner-img1.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/index/banner-img2.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/index/banner-img3.jpg"/></div>
+		        <div class="swiper-slide"><img src="img/index/banner-img4.jpg"/></div>
+	    		</div>
+    			<div class="swiper-pagination"></div>
+		</div>
+		<ul class="context">
+			<!--<li>
+				<img src="http://img.alicdn.com/bao/uploaded/i4/TB1QP0gJpXXXXczXpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg" />
+				<div class="right">
+					<a href="#">韩衣都舍韩版2015秋新款女装翻领绣花图案</a>
+					<div class="price">
+						<div>
+							<p>￥260</p>
+							<span>￥433</span>
+						</div>
+						<div>
+							
+							<p>6折</p>
+							<a href="#"><img src="img/index/bg_car.png" ></a>
+						</div>
+					</div>
+
+				</div>
+			</li>-->
+
+		</ul>
+		<ul class="footer">
+			<li>
+				<a href="index.html">
+					<img src="img/common/foot_bg1.png" alt="">
+					<p>首页</p>
+				</a>
+			</li>
+			<li>
+				<a href="classify.html">
+					<img src="img/common/foot_bg2.png" alt="">
+					<p>分类</p>
+				</a>
+			</li>
+			<li>
+				<a href="search.html">
+					<img src="img/common/foot_bg3.png" alt="">
+					<p>搜索</p>
+				</a>
+			</li>
+			<li>
+				<a href="more.html">
+					<img src="img/common/foot_bg4.png" alt="">
+					<p>更多</p>
+				</a>
+			</li>
+		</ul>
+
+		
+	</body>
+</html>
+<script language="javascript"> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 1000,//可选选项，自动滑动
+	pagination : '.swiper-pagination',
+	paginationType : 'fraction',
+})
+</script>
